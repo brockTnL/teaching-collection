@@ -1,0 +1,24 @@
+[
+  {
+    "pid": "obj1",
+    "location": "Ontario",
+    "label": "Ontario Municipal Websites",
+    "object_type": "Municipal",
+    "collection": "qatar",
+    "thumbnail": "img/derivatives/simple/obj1/thumbnail.jpg",
+    "content": " ",
+    "permalink": "/qatar/obj1",
+    "lunr_id": 0
+  },
+  {
+    "pid": "obj2",
+    "location": "Alberta",
+    "label": "Alebrta Provincial Websites",
+    "object_type": "Provincial",
+    "collection": "qatar",
+    "thumbnail": "img/derivatives/simple/obj2/thumbnail.jpg",
+    "content": " ",
+    "permalink": "/qatar/obj2",
+    "lunr_id": 1
+  }
+]
