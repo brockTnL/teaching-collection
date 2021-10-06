@@ -130,7 +130,7 @@ $ mogrify -format png +level-colors "#882D60", *.png
 
 <script>
   $(document).ready(function () {
-    var manifestUrl = "/teaching-collection/img/derivatives/iiif/obj1/manifest.json";
+    var manifestUrl = "/teaching-collection/img/derivatives/iiif/obj2/manifest.json";
     $.getJSON(manifestUrl, function(data) {
       var tileSources = [];
       $.each(data.sequences[0].canvases, function(k, val) {
@@ -201,6 +201,10 @@ $ mogrify -format png +level-colors "#882D60", *.png
     
 
     
+    
+      
+        <dt>Creator</dt>
+        <dd>John Smith</dd>
     
   
     

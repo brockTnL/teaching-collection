@@ -192,6 +192,33 @@
     </div>
   </fieldset>
   
+  <fieldset id="creator-set" class="card m-1 facet-card">
+    <div class="card-header facet-header">
+      <a class="facet-bn" data-toggle="collapse" href="#creator-collapse" role="button" aria-expanded="false" aria-controls="creator-collapse">
+        <legend>
+          creator
+          <span class="facets-chevron facets-chevron-bottom float-right ml-2" aria-hidden="true"></span>
+        </legend>
+      </a>
+      
+    </div>
+    <div class="collapse" id="creator-collapse">
+      <div class="card-body">
+        
+        <div class="facet-item">
+          <input id="chelsea-humphries" class="creator" type="checkbox" name="Chelsea Humphries" value="Chelsea Humphries" />
+          <label for="Chelsea Humphries">Chelsea Humphries</label>
+        </div>
+        
+        <div class="facet-item">
+          <input id="john-smith" class="creator" type="checkbox" name="John Smith" value="John Smith" />
+          <label for="John Smith">John Smith</label>
+        </div>
+        
+      </div>
+    </div>
+  </fieldset>
+  
 </form>
 
 <!--
@@ -208,9 +235,9 @@
          
         
 
-        <div class="gallery-item-facets worksheet-activity any col-xl-3 p-1">
+        <div class="gallery-item-facets worksheet-activity any chelsea-humphries col-xl-3 p-1">
           <div class="card thumbnail-card">
-            <img class="d-block card-img-top gallery-thumb w-100 mh-100" src="/teaching-collection/img/derivatives/simple/obj1/thumbnail.jpg" alt="Starting Your Research Worksheet" />
+            <img class="d-block card-img-top gallery-thumb w-100 mh-100" src="/teaching-collection/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg" alt="Starting Your Research Worksheet" />
             <div class="card-body">
               <a href="/teaching-collection/qatar/obj1.html"><h3 class="card-title">Starting Your Research Worksheet</h3></a>
               <!-- remove default text below or replace with a description from
@@ -225,9 +252,9 @@
          
         
 
-        <div class="gallery-item-facets presentation history col-xl-3 p-1">
+        <div class="gallery-item-facets presentation history john-smith col-xl-3 p-1">
           <div class="card thumbnail-card">
-            <img class="d-block card-img-top gallery-thumb w-100 mh-100" src="/teaching-collection/img/derivatives/simple/obj1/thumbnail.jpg" alt="Primary Sources in History" />
+            <img class="d-block card-img-top gallery-thumb w-100 mh-100" src="/teaching-collection/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg" alt="Primary Sources in History" />
             <div class="card-body">
               <a href="/teaching-collection/qatar/obj2.html"><h3 class="card-title">Primary Sources in History</h3></a>
               <!-- remove default text below or replace with a description from
@@ -248,7 +275,7 @@
 <script type="text/javascript">
   $( document ).ready(function() {
 
-          console.log(["object_type","discipline"]) // liquid array of one or more fields for facetting
+          console.log(["object_type","discipline","creator"]) // liquid array of one or more fields for facetting
 
           // This JavaScript controls the expanding and contracting facet headers.
           // Additional JS for this page in assets/js/facets.js

@@ -1,22 +1,20 @@
 [
   {
     "pid": "obj1",
-    "location": "Ontario",
-    "label": "Ontario Municipal Websites",
-    "object_type": "Municipal",
+    "label": "Starting Your Research Worksheet",
+    "object_type": "Worksheet / Activity",
     "collection": "qatar",
-    "thumbnail": "img/derivatives/simple/obj1/thumbnail.jpg",
+    "thumbnail": "/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/qatar/obj1",
     "lunr_id": 0
   },
   {
     "pid": "obj2",
-    "location": "Alberta",
-    "label": "Alebrta Provincial Websites",
-    "object_type": "Provincial",
+    "label": "Primary Sources in History",
+    "object_type": "Presentation",
     "collection": "qatar",
-    "thumbnail": "img/derivatives/simple/obj2/thumbnail.jpg",
+    "thumbnail": "/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/qatar/obj2",
     "lunr_id": 1
