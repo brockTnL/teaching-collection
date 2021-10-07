@@ -229,6 +229,43 @@
     </div>
   </fieldset>
   
+  <fieldset id="acrl-set" class="card m-1 facet-card">
+    <div class="card-header facet-header">
+      <a class="facet-bn" data-toggle="collapse" href="#acrl-collapse" role="button" aria-expanded="false" aria-controls="acrl-collapse">
+        <legend>
+          acrl
+          <span class="facets-chevron facets-chevron-bottom float-right ml-2" aria-hidden="true"></span>
+        </legend>
+      </a>
+      
+    </div>
+    <div class="collapse" id="acrl-collapse">
+      <div class="card-body">
+        
+        <div class="facet-item">
+          <input id="authority-is-constructed-and-contextual" class="acrl" type="checkbox" name="Authority Is Constructed and Contextual" value="Authority Is Constructed and Contextual" />
+          <label for="Authority Is Constructed and Contextual">Authority Is Constructed and Contextual</label>
+        </div>
+        
+        <div class="facet-item">
+          <input id="information-has-value" class="acrl" type="checkbox" name="Information Has Value" value="Information Has Value" />
+          <label for="Information Has Value">Information Has Value</label>
+        </div>
+        
+        <div class="facet-item">
+          <input id="research-as-inquiry" class="acrl" type="checkbox" name="Research as Inquiry" value="Research as Inquiry" />
+          <label for="Research as Inquiry">Research as Inquiry</label>
+        </div>
+        
+        <div class="facet-item">
+          <input id="searching-as-strategic-exploration" class="acrl" type="checkbox" name="Searching as Strategic Exploration" value="Searching as Strategic Exploration" />
+          <label for="Searching as Strategic Exploration">Searching as Strategic Exploration</label>
+        </div>
+        
+      </div>
+    </div>
+  </fieldset>
+  
 </form>
 
 <!--
@@ -245,7 +282,7 @@
          
         
 
-        <div class="gallery-item-facets worksheet-activity any chelsea-humphries col-xl-3 p-1">
+        <div class="gallery-item-facets worksheet-activity any chelsea-humphries research-as-inquiry col-xl-4 p-1">
           <div class="card thumbnail-card">
             <img class="d-block card-img-top gallery-thumb w-100 mh-100" src="/teaching-collection/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg" alt="Starting Your Research Worksheet" />
             <div class="card-body">
@@ -262,7 +299,7 @@
          
         
 
-        <div class="gallery-item-facets presentation history john-smith col-xl-3 p-1">
+        <div class="gallery-item-facets presentation history john-smith searching-as-strategic-exploration col-xl-4 p-1">
           <div class="card thumbnail-card">
             <img class="d-block card-img-top gallery-thumb w-100 mh-100" src="/teaching-collection/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg" alt="Primary Sources in History" />
             <div class="card-body">
@@ -279,7 +316,7 @@
          
         
 
-        <div class="gallery-item-facets presentation any cal-murgu col-xl-3 p-1">
+        <div class="gallery-item-facets presentation any cal-murgu information-has-value col-xl-4 p-1">
           <div class="card thumbnail-card">
             <img class="d-block card-img-top gallery-thumb w-100 mh-100" src="/teaching-collection/img/derivatives/iiif/images/obj3/full/250,/0/default.jpg" alt="Academic Integrity Tutorial" />
             <div class="card-body">
@@ -296,7 +333,7 @@
          
         
 
-        <div class="gallery-item-facets presentation political-science cal-murgu col-xl-3 p-1">
+        <div class="gallery-item-facets presentation political-science cal-murgu authority-is-constructed-and-contextual col-xl-4 p-1">
           <div class="card thumbnail-card">
             <img class="d-block card-img-top gallery-thumb w-100 mh-100" src="/teaching-collection/img/derivatives/iiif/images/obj4/full/250,/0/default.jpg" alt="Exploring Hansard" />
             <div class="card-body">
@@ -319,7 +356,7 @@
 <script type="text/javascript">
   $( document ).ready(function() {
 
-          console.log(["object_type","discipline","creator"]) // liquid array of one or more fields for facetting
+          console.log(["object_type","discipline","creator","acrl"]) // liquid array of one or more fields for facetting
 
           // This JavaScript controls the expanding and contracting facet headers.
           // Additional JS for this page in assets/js/facets.js
@@ -349,6 +386,7 @@
     <div class="row">
       <div class="col-lg-6">
         <p>CC-BY-SA-NC 4.0 | Made with ❤ by <a href="https://brocku.ca/library/">Brock Library Teaching and Learning</a></p>
+        <img style="width: 50%;" src="/teaching-collection/img/logo.png"></img>
       </div>
       <div class="col-lg-6">      
         <span><small>Built with Jekyll and</small> <a href="https://minicomp.github.io/wax/">Wax</a><small></span>
