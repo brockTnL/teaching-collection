@@ -1,6 +1,6 @@
 # Teaching Collection
 
-This is a Jekyll site built with *Facets* (see [Wax sites](https://minicomp.github.io\/wax/)). It allows allows users to browse through a collection of learning material created by Brock librarians using facets or filters. 
+This is a Jekyll site built with *Facets* (see [Wax sites](https://minicomp.github.io\/wax/)). It allows users to browse through a collection of learning material created by Brock librarians using facets or filters. 
 
 ## Why does this site exist?
 
