@@ -8,7 +8,7 @@ We want to get better at sharing the content that we've created with each other.
 
 ## How would I use this? Give me an example
 
-Okay. Say you were asked to teach in a fourth year History classroom about primary sources. If you haven't done this before, you may have to create content from scratch. Luckily, a colleague has already created awesome content and has included it in the Teaching Collection. Using convenient facets, you select the "History" and "Upper-year" filter. In a few moments, you've identified appropriate, reusable content to remix for your lesson. 
+Okay. Say you were asked to teach in a fourth year History classroom about primary sources. If you haven't done this before, you may have to create content from scratch. Luckily, a colleague has already created awesome content and has included it in the Teaching Collection. Using convenient facets, you select the "History" and "Upper-year" filter. In a few moments, you've identified appropriate, reusable content to remix for your lesson. Way to go 🙌
 
 ## Who contributed content?
 
