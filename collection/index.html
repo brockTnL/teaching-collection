@@ -32,7 +32,7 @@
 <body><header class="site-header">
         <nav class="navbar navbar-expand-md banner">
             <a class="title navbar-brand" rel="author" href="/teaching-collection/">Brock Library Teaching Collection</a>
-            <span class="subtitle navbar-text">Open Source Lessons</span>
+            <span class="subtitle navbar-text">Open Access Lessons</span>
 
   <!-- Collapse button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
@@ -46,7 +46,7 @@
                 
                     
                     <li class='nav-item'>
-                        <a class='nav-link' href='/teaching-collection/blog/'>News</a>
+                        <a class='nav-link' href='/teaching-collection/blog/'>New Stuff</a>
                     </li>
                     
                 
@@ -107,7 +107,7 @@
 
 <div class="search-block">
   <div class="input-group">
-    <input type="text" class="form-control" id="search" name="x" placeholder="Type something... like municipal government" />
+    <input type="text" class="form-control" id="search" name="x" placeholder="" />
   </div>
   <div id="results"></div>
 </div>
@@ -117,7 +117,7 @@
 <script type="text/javascript" src="/teaching-collection/assets/search-ui.js"></script>
 
 <script type="text/javascript">
-  var fields    = ["artist","location","label","_date","object_type","current_location"];
+  var fields    = ["description","objective","label","discipline","object_type","creator","current_location"];
   var indexFile = "/teaching-collection/search/index.json";
   //var url       = "/teaching-collection";
   var url       = "/teaching-collection/";
@@ -188,6 +188,11 @@
           <label for="History">History</label>
         </div>
         
+        <div class="facet-item">
+          <input id="political-science" class="discipline" type="checkbox" name="Political Science" value="Political Science" />
+          <label for="Political Science">Political Science</label>
+        </div>
+        
       </div>
     </div>
   </fieldset>
@@ -204,6 +209,11 @@
     </div>
     <div class="collapse" id="creator-collapse">
       <div class="card-body">
+        
+        <div class="facet-item">
+          <input id="cal-murgu" class="creator" type="checkbox" name="Cal Murgu" value="Cal Murgu" />
+          <label for="Cal Murgu">Cal Murgu</label>
+        </div>
         
         <div class="facet-item">
           <input id="chelsea-humphries" class="creator" type="checkbox" name="Chelsea Humphries" value="Chelsea Humphries" />
@@ -243,8 +253,8 @@
               <!-- remove default text below or replace with a description from
                 the item record (e.g., __This worksheet is used in research consultations and small group teaching sessions. Students are invited to collaborate on the document, and, working with the librarian, fill in the chart to develop search terms and a search string that is then used in Omni for preliminary research.) -->
               <p class="card-text small">
-                This is a Worksheet / Activity from  dating to
-                .
+                This is a Worksheet / Activity for Any created by
+                Chelsea Humphries.
               </p>
             </div>
           </div>
@@ -260,8 +270,42 @@
               <!-- remove default text below or replace with a description from
                 the item record (e.g., __This worksheet is used in research consultations and small group teaching sessions. Students are invited to collaborate on the document, and, working with the librarian, fill in the chart to develop search terms and a search string that is then used in Omni for preliminary research.) -->
               <p class="card-text small">
-                This is a Presentation from  dating to
-                .
+                This is a Presentation for History created by
+                John Smith.
+              </p>
+            </div>
+          </div>
+        </div>
+         
+        
+
+        <div class="gallery-item-facets presentation any cal-murgu col-xl-3 p-1">
+          <div class="card thumbnail-card">
+            <img class="d-block card-img-top gallery-thumb w-100 mh-100" src="/teaching-collection/img/derivatives/iiif/images/obj3/full/250,/0/default.jpg" alt="Academic Integrity Tutorial" />
+            <div class="card-body">
+              <a href="/teaching-collection/qatar/obj3.html"><h3 class="card-title">Academic Integrity Tutorial</h3></a>
+              <!-- remove default text below or replace with a description from
+                the item record (e.g., This module was created in H5P, and it is a remix of a York University module on academic integrity. It includes knowledge checks throughout. ) -->
+              <p class="card-text small">
+                This is a Presentation for Any created by
+                Cal Murgu.
+              </p>
+            </div>
+          </div>
+        </div>
+         
+        
+
+        <div class="gallery-item-facets presentation political-science cal-murgu col-xl-3 p-1">
+          <div class="card thumbnail-card">
+            <img class="d-block card-img-top gallery-thumb w-100 mh-100" src="/teaching-collection/img/derivatives/iiif/images/obj4/full/250,/0/default.jpg" alt="Exploring Hansard" />
+            <div class="card-body">
+              <a href="/teaching-collection/qatar/obj4.html"><h3 class="card-title">Exploring Hansard</h3></a>
+              <!-- remove default text below or replace with a description from
+                the item record (e.g., This video is an introduction to Hansard and Hansard debates. This video complemented an in-person session on the same topic. ) -->
+              <p class="card-text small">
+                This is a Presentation for Political Science created by
+                Cal Murgu.
               </p>
             </div>
           </div>
@@ -304,7 +348,7 @@
 
     <div class="row">
       <div class="col-lg-6">
-        <p>CC-BY-SA-NC 4.0 | Made with ❤ by <a href="https://calmurgu.com/">Cal Murgu</a></p>
+        <p>CC-BY-SA-NC 4.0 | Made with ❤ by <a href="https://brocku.ca/library/">Brock Library Teaching and Learning</a></p>
       </div>
       <div class="col-lg-6">      
         <span><small>Built with Jekyll and</small> <a href="https://minicomp.github.io/wax/">Wax</a><small></span>

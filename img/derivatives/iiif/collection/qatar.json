@@ -5,6 +5,16 @@
   "label": "qatar",
   "manifests": [
     {
+      "@id": "/teaching-collection/img/derivatives/iiif/obj4/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj4"
+    },
+    {
+      "@id": "/teaching-collection/img/derivatives/iiif/obj3/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj3"
+    },
+    {
       "@id": "/teaching-collection/img/derivatives/iiif/obj2/manifest.json",
       "@type": "sc:Manifest",
       "label": "obj2"
