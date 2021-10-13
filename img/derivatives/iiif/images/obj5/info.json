@@ -2,20 +2,20 @@
   "@context": "http://iiif.io/api/image/2/context.json",
   "@id": "/teaching-collection/img/derivatives/iiif/images/obj5",
   "protocol": "http://iiif.io/api/image",
-  "width": 2108,
-  "height": 1178,
+  "width": 2230,
+  "height": 1258,
   "sizes": [
     {
-      "width": 2108,
-      "height": 1178
+      "width": 2230,
+      "height": 1258
     },
     {
       "width": 250,
-      "height": 140
+      "height": 141
     },
     {
       "width": 1140,
-      "height": 637
+      "height": 643
     }
   ],
   "profile": [

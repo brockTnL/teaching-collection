@@ -10,19 +10,14 @@
       "label": "obj5"
     },
     {
-      "@id": "/teaching-collection/img/derivatives/iiif/obj4/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "obj4"
-    },
-    {
       "@id": "/teaching-collection/img/derivatives/iiif/obj6/manifest.json",
       "@type": "sc:Manifest",
       "label": "obj6"
     },
     {
-      "@id": "/teaching-collection/img/derivatives/iiif/obj7/manifest.json",
+      "@id": "/teaching-collection/img/derivatives/iiif/obj4/manifest.json",
       "@type": "sc:Manifest",
-      "label": "obj7"
+      "label": "obj4"
     },
     {
       "@id": "/teaching-collection/img/derivatives/iiif/obj3/manifest.json",
